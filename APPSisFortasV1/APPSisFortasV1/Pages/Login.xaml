@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="APPSisFortasV1.Pages.Login">
+    <ContentPage.Content>
+        <StackLayout >
+            <StackLayout BackgroundColor="blue" Spacing="0" >
+                <StackLayout BackgroundColor="White" Padding="50" Margin="15" Spacing="15" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                    <Image Source="login.png"
+                               Aspect="AspectFit"
+                               VerticalOptions="Center"/>
+                    <Label Text="SIS FROTAS" TextColor="Black" FontSize="Large"  HorizontalTextAlignment="Center" HorizontalOptions="Center" VerticalOptions="Center" />
+                    <Entry x:Name="TXTCPF" TextColor="Black" Placeholder="Digite seu CPF" 
+                           PlaceholderColor="Black" BackgroundColor="White"
+                           ClearButtonVisibility="WhileEditing"
+                           Keyboard="Numeric"                           
+                        />
+                    <Entry x:Name="TXTSENHA" TextColor="Black" Placeholder="Digite sua Senha"
+                           PlaceholderColor="Black" BackgroundColor="White" IsPassword="True"
+                           ClearButtonVisibility="WhileEditing"
+                           IsSpellCheckEnabled="false"/>
+                    <Button x:Name="BTNLOGAR" Text="Entrar" BackgroundColor="LightBlue" 
+                           CornerRadius="15"
+                            BorderWidth="2"
+                            BorderColor="Red"
+                            Clicked="VerificarLogin"/>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

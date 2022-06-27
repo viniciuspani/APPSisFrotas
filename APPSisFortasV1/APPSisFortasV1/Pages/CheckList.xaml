@@ -1,0 +1,649 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="APPSisFortasV1.Pages.CheckList">
+    <ContentPage.Content>
+        <StackLayout>
+            <!--StackLayout base da pagina-->
+            <StackLayout BackgroundColor="Blue" HeightRequest="50"
+                         WidthRequest="500"
+                         HorizontalOptions="StartAndExpand">               
+                
+                <Button x:Name="Logout" Text="LogOut" TextColor="Blue" FontSize="15"
+                    VerticalOptions="Start" HorizontalOptions="End" WidthRequest="100"
+                    BorderColor="Red" CornerRadius="15" BorderWidth="2"
+                    BackgroundColor="White" Margin="7" />
+            </StackLayout>
+            <!--Box azul de layout-->
+            <StackLayout BackgroundColor="White" HeightRequest="480">
+                <Label Text="CHECK LIST" FontSize="Large" TextColor="Black" HorizontalTextAlignment="Center" />
+                <BoxView  BackgroundColor="Blue"
+                          HeightRequest="5"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                <ScrollView VerticalOptions="FillAndExpand">
+                    <!--Barra de rolagem a partir dos itens do check list-->
+                    <StackLayout>
+                        <!--CATEGORIA NIVEIS-->
+                        <Label Text="1- Níveis" FontSize="Large" TextColor="Black" HorizontalTextAlignment="Start"/>
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="5"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <StackLayout Orientation="Horizontal" Spacing="190" Padding="5" >
+                            <Label Text="Oleo de Freio" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusOleoFreio" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--SEPARACAO CAMPOS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--SEPARACAO CAMPOS CAT 1-->
+                        <StackLayout Orientation="Horizontal" Spacing="175" Padding="5">
+                            <Label Text="Agua Radiador" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusAguaRadiador" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--SEPARACAO CAMPOS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--SEPARACAO CAMPOS CAT 1-->
+                        <StackLayout Orientation="Horizontal" Spacing="130" Padding="5">
+                            <Label Text="Agua Esguinchador" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusAguaEnguinchador" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--SEPARACAO CAMPOS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--SEPARACAO CAMPOS CAT 1-->
+                        <StackLayout Orientation="Horizontal" Spacing="198" Padding="5">
+                            <Label Text="Combustivel" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusCombustivel" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--SEPARACAO CAMPOS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--SEPARACAO CAMPOS CAT 1-->
+                        <StackLayout Orientation="Horizontal" Spacing="167" Padding="5">
+                            <Label Text="Oleo Hidraulico " FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusOleoHidraulico" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--SEPARACAO CAMPOS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--SEPARACAO CAMPOS CAT 1-->
+                        <StackLayout Orientation="Horizontal" Spacing="205" Padding="5">
+                            <Label Text="Oleo Motor" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusOleoMotor" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--Box azul separação de layout tipo cheklist-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="5"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--CATEGORIA ELETRICA-->
+                        <Label Text="2- Funcionamento Eletrico" FontSize="Large" TextColor="Black" HorizontalTextAlignment="Start"/>
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="5"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--Fim Box azul separação de layout tipo cheklist-->
+                        <!--SEPARACAO CAMPOS CAT 2-->
+                        <StackLayout Orientation="Horizontal" Spacing="230" Padding="5">
+                            <Label Text="Luz Baixa" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusLuzBaixa" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--BOX SEPARACAO CAMPOS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--SEPARACAO CAMPOS CAT 2-->
+                        <StackLayout Orientation="Horizontal" Spacing="240" Padding="5">
+                            <Label Text="Luz Alta" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusLuzAlta" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--BOX SEPARACAO CAMPOS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--SEPARACAO CAMPOS CAT 2-->
+                        <StackLayout Orientation="Horizontal" Spacing="200" Padding="5">
+                            <Label Text="Luz de Freio" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusLuzFreio" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--BOX SEPARACAO CAMPOS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--SEPARACAO CAMPOS CAT 2-->
+                        <StackLayout Orientation="Horizontal" Spacing="199" Padding="5">
+                            <Label Text="Luz da Placa" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusLuzPlaca" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--BOX SEPARACAO CAMPOS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--SEPARACAO CAMPOS CAT 2-->
+                        <StackLayout Orientation="Horizontal" Spacing="233" Padding="5">
+                            <Label Text="Faroletes" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusFaroletes" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--BOX SEPARACAO CAMPOS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--SEPARACAO CAMPOS CAT 2-->
+                        <StackLayout Orientation="Horizontal" Spacing="205" Padding="5">
+                            <Label Text="Pisca Alerta" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusPiscaAlerta" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--BOX SEPARACAO CAMPOS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--SEPARACAO CAMPOS CAT 2-->
+                        <StackLayout Orientation="Horizontal" Spacing="260" Padding="5">
+                            <Label Text="Sirene" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusSirene" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--BOX SEPARACAO CAMPOS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--SEPARACAO CAMPOS CAT 2-->
+                        <StackLayout Orientation="Horizontal" Spacing="243" Padding="5">
+                            <Label Text="Giroflex" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusGiroflex" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--BOX SEPARACAO CAMPOS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--SEPARACAO CAMPOS CAT 2-->
+                        <StackLayout Orientation="Horizontal" Spacing="255" Padding="5">
+                            <Label Text="Buzina" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusBuzina" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--BOX SEPARACAO CAMPOS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--SEPARACAO CAMPOS CAT 2-->
+                        <StackLayout Orientation="Horizontal" Spacing="163" Padding="5">
+                            <Label Text="Limpa Parabrisa" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusLimpaParabrisa" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--BOX SEPARACAO CAMPOS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--SEPARACAO CAMPOS CAT 2-->
+                        <StackLayout Orientation="Horizontal" Spacing="210" Padding="5">
+                            <Label Text="Luz Interna" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusLuzInterna" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--BOX SEPARACAO CAMPOS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--SEPARACAO CAMPOS CAT 2-->
+                        <StackLayout Orientation="Horizontal" Spacing="217" Padding="5">
+                            <Label Text="Luz Painel" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusLuzPainel" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--BOX SEPARACAO CAMPOS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--SEPARACAO CAMPOS CAT 2-->
+                        <StackLayout Orientation="Horizontal" Spacing="195" Padding="5">
+                            <Label Text="Retrovisores" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusRetrovisores" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--BOX SEPARACAO CATEGORIAS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="5"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--CATEGORIA INSTRUMENTOS-->
+                        <Label Text="3- Instrumentos" FontSize="Large" TextColor="Black" HorizontalTextAlignment="Start"/>
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="5"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--SEPARACAO CAMPOS CAT 3-->
+                        <StackLayout Orientation="Horizontal" Spacing="188" Padding="5">
+                            <Label Text="Velocimentro" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusVelocimetro" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--BOX SEPARACAO CAMPOS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--SEPARACAO CAMPOS CAT 3-->
+                        <StackLayout Orientation="Horizontal" Spacing="195" Padding="5">
+                            <Label Text="Temperatura" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusTemperatura" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>                        
+                        <!--BOX SEPARACAO CATEGORIAS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="5"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--CATEGORIA CONSERVAÇÃO-->
+                        <Label Text="4- Conservação" FontSize="Large" TextColor="Black" HorizontalTextAlignment="Start"/>
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="5"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--SEPARACAO CAMPOS CAT 4-->
+                        <StackLayout Orientation="Horizontal" Spacing="125" Padding="5">
+                            <Label Text="Cinto de Segurança" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusCintoSeguranca" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--BOX SEPARACAO CAMPOS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--SEPARACAO CAMPOS CAT 4-->
+                        <StackLayout Orientation="Horizontal" Spacing="222" Padding="5">
+                            <Label Text="Kit Estepe" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusKitEstepe" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--BOX SEPARACAO CAMPOS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--SEPARACAO CAMPOS CAT 4-->
+                        <StackLayout Orientation="Horizontal" Spacing="188" Padding="5">
+                            <Label Text="Freio de Mão" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusFreioMao" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--BOX SEPARACAO CAMPOS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--SEPARACAO CAMPOS CAT 4-->
+                        <StackLayout Orientation="Horizontal" Spacing="198" Padding="5">
+                            <Label Text="Pneu Estepe" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusPneuEstepe" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--BOX SEPARACAO CAMPOS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--SEPARACAO CAMPOS CAT 4-->
+                        <StackLayout Orientation="Horizontal" Spacing="83" Padding="5">
+                            <Label Text="Pneu Diant Lado Direito" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusPneuDiantDireito" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--BOX SEPARACAO CAMPOS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--SEPARACAO CAMPOS CAT 4-->
+                        <StackLayout Orientation="Horizontal" Spacing="57" Padding="5">
+                            <Label Text="Pneu Diant Lado Esquerdo" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusPneuDiantEsquerdo" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--BOX SEPARACAO CAMPOS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--SEPARACAO CAMPOS CAT 4-->
+                        <StackLayout Orientation="Horizontal" Spacing="57" Padding="5">
+                            <Label Text="Pneu Traseiro Lado Direito" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusPneuTrasDireito" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--BOX SEPARACAO CAMPOS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--SEPARACAO CAMPOS CAT 4-->
+                        <StackLayout Orientation="Horizontal" Spacing="32" Padding="5">
+                            <Label Text="Pneu Traseiro Lado Esquerdo" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusPneuTrasEsquerdo" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--BOX SEPARACAO CAMPOS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--SEPARACAO CAMPOS CAT 4-->
+                        <StackLayout Orientation="Horizontal" Spacing="80" Padding="5">
+                            <Label Text="Limpeza Interna/Externa" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusLimpezaVeiculo" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--BOX SEPARACAO CAMPOS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--SEPARACAO CAMPOS CAT 4-->
+                        <StackLayout Orientation="Horizontal" Spacing="202" Padding="5">
+                            <Label Text="Trava Portas" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusTravaPortas" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--BOX SEPARACAO CAMPOS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--SEPARACAO CAMPOS CAT 4-->
+                        <StackLayout Orientation="Horizontal" Spacing="258" Padding="5">
+                            <Label Text="Pedais" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusPedais" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--BOX SEPARACAO CAMPOS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--SEPARACAO CAMPOS CAT 4-->
+                        <StackLayout Orientation="Horizontal" Spacing="148" Padding="5">
+                            <Label Text="Acionador Vidros" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusAcionadorVidro" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--BOX SEPARACAO CAMPOS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--SEPARACAO CAMPOS CAT 4-->
+                        <StackLayout Orientation="Horizontal" Spacing="268" Padding="5">
+                            <Label Text="Maca" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusMaca" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--BOX SEPARACAO CAMPOS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--SEPARACAO CAMPOS CAT 4-->
+                        <StackLayout Orientation="Horizontal" Spacing="56" Padding="5">
+                            <Label Text="Ar Condicionado Dianteiro" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusArDianteiro" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--BOX SEPARACAO CAMPOS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                        <!--SEPARACAO CAMPOS CAT 4-->
+                        <StackLayout Orientation="Horizontal" Spacing="72" Padding="5">
+                            <Label Text="Ar Condicionado Traseiro" FontSize="Medium" TextColor="Black" HorizontalTextAlignment="Start"/>
+                            <Picker x:Name="StatusArTraseiro" TextColor="Black" HorizontalOptions="CenterAndExpand" WidthRequest="165">
+                                <Picker.Items>
+                                    <x:String>Conformidade</x:String>
+                                    <x:String>Não Conformidade</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <!--BOX SEPARACAO CAMPOS-->
+                        <BoxView  BackgroundColor="Blue"
+                          HeightRequest="5"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                    </StackLayout>
+                </ScrollView>
+                <!--FECHAMENTO SCROLLVIEW CHECK LIST-->
+            </StackLayout>
+        <!--FECHAMENTO LAYOUT CHECK LIST-->        
+            <StackLayout BackgroundColor="Blue" HeightRequest="50"
+                         WidthRequest="500"
+                         HorizontalOptions="StartAndExpand">
+                <Button x:Name="RegistroCheckList" Text="Registrar" TextColor="Blue" FontSize="20"
+                    VerticalOptions="Start" HorizontalOptions="Center" WidthRequest="200"
+                    BorderColor="Red" CornerRadius="15" BorderWidth="3"
+                    BackgroundColor="White"
+                       Clicked="RegistroCompleto" />
+            </StackLayout>
+        </StackLayout>
+        <!--FECHAMENTO LAYOUT PRINCIPAL-->
+    </ContentPage.Content>
+</ContentPage>

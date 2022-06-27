@@ -1,0 +1,50 @@
+@string/appbar_scrolling_view_behavior;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\layout\rootlayout.xml
+adaptive-icon;obj\Debug\110\res\mipmap-anydpi-v26\icon.xml
+adaptive-icon;obj\Debug\110\res\mipmap-anydpi-v26\icon_round.xml
+alpha;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\anim\enterfromleft.xml
+alpha;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\anim\exittoleft.xml
+androidx.appcompat.widget.Toolbar;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\layout\fallbacktoolbardonotuse.xml
+androidx.appcompat.widget.Toolbar;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\layout\rootlayout.xml
+androidx.appcompat.widget.Toolbar;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\layout\shellcontent.xml
+androidx.appcompat.widget.Toolbar;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\layout\toolbar.xml
+androidx.coordinatorlayout.widget.CoordinatorLayout;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\layout\rootlayout.xml
+androidx.coordinatorlayout.widget.CoordinatorLayout;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\layout\shellcontent.xml
+attr;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\values\attrs.xml
+background;obj\Debug\110\res\mipmap-anydpi-v26\icon.xml
+background;obj\Debug\110\res\mipmap-anydpi-v26\icon_round.xml
+cache-path;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+color;obj\Debug\110\res\values\colors.xml
+com.google.android.material.appbar.AppBarLayout;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\layout\flyoutcontent.xml
+com.google.android.material.appbar.AppBarLayout;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\layout\rootlayout.xml
+com.google.android.material.appbar.AppBarLayout;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\layout\shellcontent.xml
+com.google.android.material.bottomnavigation.BottomNavigationView;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\layout\bottomtablayout.xml
+com.google.android.material.tabs.TabLayout;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\layout\fallbacktabbardonotuse.xml
+com.google.android.material.tabs.TabLayout;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\layout\rootlayout.xml
+com.google.android.material.tabs.TabLayout;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\layout\tabbar.xml
+declare-styleable;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\values\attrs.xml
+external-cache-path;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+foreground;obj\Debug\110\res\mipmap-anydpi-v26\icon.xml
+foreground;obj\Debug\110\res\mipmap-anydpi-v26\icon_round.xml
+FrameLayout;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\layout\bottomtablayout.xml
+item;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\values\styles.xml
+LinearLayout;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\layout\bottomtablayout.xml
+paths;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+resources;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\values\attrs.xml
+resources;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\values\strings.xml
+resources;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\values\styles.xml
+resources;obj\Debug\110\res\values\colors.xml
+resources;obj\Debug\110\res\values\styles.xml
+set;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\anim\enterfromleft.xml
+set;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\anim\enterfromright.xml
+set;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\anim\exittoleft.xml
+set;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\anim\exittoright.xml
+string;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\values\strings.xml
+style;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\values\styles.xml
+style;obj\Debug\110\res\values\styles.xml
+translate;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\anim\enterfromleft.xml
+translate;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\anim\enterfromright.xml
+translate;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\anim\exittoleft.xml
+translate;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\anim\exittoright.xml
+xamarin.forms.platform.android.appcompat.FormsViewPager;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\layout\rootlayout.xml
+xamarin.forms.platform.android.ShellFlyoutLayout;C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1.Android\obj\Debug\110\lp\45\jl\res\layout\flyoutcontent.xml

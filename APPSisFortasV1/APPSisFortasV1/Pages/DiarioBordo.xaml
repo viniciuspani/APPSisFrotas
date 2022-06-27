@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="APPSisFortasV1.Pages.DiarioBordo">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView VerticalOptions="FillAndExpand">
+                <StackLayout BackgroundColor="White">
+                    <!--StackLayout base da pagina-->
+                    <StackLayout BackgroundColor="Blue" HeightRequest="40"
+                         WidthRequest="500"
+                         HorizontalOptions="StartAndExpand">
+                    </StackLayout>
+                    <!--CORPO PAGINA DIARIO BORDO-->
+                    <StackLayout>
+                        <Label Text="DIARIO DE BORDO" FontSize="Large" TextColor="Black" HorizontalTextAlignment="Center" />
+                    </StackLayout>
+                    <!--CARREGA INFORMAÇÕES DO VEICULO-->
+                    <StackLayout Margin="10">
+
+                        <StackLayout Orientation="Horizontal" Spacing="5">
+                            <Label Text="Veiculo N°:" TextColor="Black" HorizontalTextAlignment="Start" FontSize="Small"/>
+                            <Label x:Name="LBVEICULONUMBER" Text="Veiculo N°:" TextColor="Black" HorizontalTextAlignment="Center" FontSize="14"
+                           WidthRequest="110" FontFamily="arial"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Spacing="5">
+                            <Label Text="Modelo:" TextColor="Black" HorizontalTextAlignment="Start" FontSize="Small"/>
+                            <Label x:Name="LBMODELOAVEICULO" Text="Modelo:" TextColor="Black" HorizontalTextAlignment="Center" FontSize="14"
+                           WidthRequest="210" FontFamily="arial"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Spacing="5">
+                            <Label Text="Placa:" TextColor="Black" HorizontalTextAlignment="Start" FontSize="Small"/>
+                            <Label x:Name="LBPLACAVEICULO" Text="Placa:" TextColor="Black" HorizontalTextAlignment="Center" FontSize="14" FontFamily="arial"
+                           WidthRequest="250"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Spacing="5">
+                            <Label Text="Unidade de Lotação:" TextColor="Black" HorizontalTextAlignment="Start" FontSize="Small"/>
+                            <Label x:Name="LBLOTACAO" Text="Lotacao:" TextColor="Black" HorizontalTextAlignment="Center" FontSize="Small"
+                           WidthRequest="120"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Spacing="5">
+                            <Label Text="Data" TextColor="Black" HorizontalTextAlignment="Start" FontSize="Small"/>
+                            <Label x:Name="LBDATA" Text="Data" TextColor="Black" HorizontalTextAlignment="Center" FontSize="Small"
+                           WidthRequest="120"/>
+                        </StackLayout>
+                    </StackLayout>
+                    <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                    <!--INSERI INFORMACOES DO DIARIO DE BORDO-->
+                    <StackLayout Orientation="Horizontal" Spacing="5" Margin="7" >
+                        <Label Text="Horario INICIO" FontSize="Small" TextColor="Black" HorizontalTextAlignment="Start"/>
+                        <Entry x:Name="HorarioInicial" WidthRequest="120" ClearButtonVisibility="WhileEditing" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Spacing="40" Margin="7" >
+                        <Label Text="KM INICIAL" FontSize="Small" TextColor="Black" HorizontalTextAlignment="Start"/>
+                        <Entry x:Name="KmInicial" IsReadOnly="True" WidthRequest="120" />
+                    </StackLayout>
+                    <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                    <StackLayout Orientation="Horizontal" Spacing="5"  Margin="7">
+                        <Label Text="Horario Final" FontSize="Small" TextColor="Black" HorizontalTextAlignment="Start"/>
+                        <Entry x:Name="HorarioFinal" WidthRequest="120" ClearButtonVisibility="WhileEditing" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Spacing="40" Margin="7" >
+                        <Label Text="KM FINAL" FontSize="Small" TextColor="Black" HorizontalTextAlignment="Start"/>
+                        <Entry x:Name="KmFinal" WidthRequest="120" Keyboard="Numeric" ClearButtonVisibility="WhileEditing" />
+                    </StackLayout>
+                    <BoxView  BackgroundColor="Blue"
+                          HeightRequest="3"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+                    <Button x:Name="RegistroDiarioBordo" Text="Registrar" TextColor="Blue" FontSize="20"
+                    VerticalOptions="Start" HorizontalOptions="Center" WidthRequest="200"
+                    BorderColor="Red" CornerRadius="15" BorderWidth="2"
+                    BackgroundColor="White" Margin="10"
+                    Clicked="AtualizaDiarioBordoAsync"
+                    />
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="APPSisFortasV1.Pages.ChekList">
+    <ContentPage.Content>
+        <StackLayout>            
+                <BoxView BackgroundColor="Blue"
+                     HeightRequest="50"
+                     WidthRequest="500"
+                     HorizontalOptions="StartAndExpand"                     
+                     />
+                <StackLayout BackgroundColor="White" HeightRequest="480">
+                    <Label Text="CHECK LIST" FontSize="Large" TextColor="Black" HorizontalTextAlignment="Center" />
+                    <BoxView  BackgroundColor="Blue"
+                          HeightRequest="5"
+                          WidthRequest="500"
+                          HorizontalOptions="StartAndExpand"                     
+                          />
+
+                </StackLayout>
+                <BoxView BackgroundColor="Blue"
+                     HeightRequest="50"
+                     WidthRequest="500"
+                     HorizontalOptions="StartAndExpand"                     
+                     />
+
+            <RelativeLayout>
+                <Button x:Name="Logout"
+                        WidthRequest="50"
+                        HeightRequest="5"
+                        Text="Logout"
+                        TextColor="black"
+                        FontSize="40"
+                        HorizontalOptions="End"
+                        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, 
+                                ElementName=Box1,Property=X,Factor=1,Constant=12}"/>
+            </RelativeLayout>
+            </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

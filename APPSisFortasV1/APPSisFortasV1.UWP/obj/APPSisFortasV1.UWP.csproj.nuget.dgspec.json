@@ -1,0 +1,176 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\PANI\\Desktop\\SENAI\\PROJETO TECNICO\\TCC FROTAS SAUDE\\APLICATIVOS\\APPSisFortasV1\\APPSisFortasV1\\APPSisFortasV1.UWP\\APPSisFortasV1.UWP.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\PANI\\Desktop\\SENAI\\PROJETO TECNICO\\TCC FROTAS SAUDE\\APLICATIVOS\\APPSisFortasV1\\APPSisFortasV1\\APPSisFortasV1.UWP\\APPSisFortasV1.UWP.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PANI\\Desktop\\SENAI\\PROJETO TECNICO\\TCC FROTAS SAUDE\\APLICATIVOS\\APPSisFortasV1\\APPSisFortasV1\\APPSisFortasV1.UWP\\APPSisFortasV1.UWP.csproj",
+        "projectName": "APPSisFortasV1.UWP",
+        "projectPath": "C:\\Users\\PANI\\Desktop\\SENAI\\PROJETO TECNICO\\TCC FROTAS SAUDE\\APLICATIVOS\\APPSisFortasV1\\APPSisFortasV1\\APPSisFortasV1.UWP\\APPSisFortasV1.UWP.csproj",
+        "packagesPath": "C:\\Users\\PANI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PANI\\Desktop\\SENAI\\PROJETO TECNICO\\TCC FROTAS SAUDE\\APLICATIVOS\\APPSisFortasV1\\APPSisFortasV1\\APPSisFortasV1.UWP\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PANI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.16299"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.16299": {
+            "projectReferences": {
+              "C:\\Users\\PANI\\Desktop\\SENAI\\PROJETO TECNICO\\TCC FROTAS SAUDE\\APLICATIVOS\\APPSisFortasV1\\APPSisFortasV1\\APPSisFortasV1\\APPSisFortasV1.csproj": {
+                "projectPath": "C:\\Users\\PANI\\Desktop\\SENAI\\PROJETO TECNICO\\TCC FROTAS SAUDE\\APLICATIVOS\\APPSisFortasV1\\APPSisFortasV1\\APPSisFortasV1\\APPSisFortasV1.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.16299": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.12, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\PANI\\Desktop\\SENAI\\PROJETO TECNICO\\TCC FROTAS SAUDE\\APLICATIVOS\\APPSisFortasV1\\APPSisFortasV1\\APPSisFortasV1\\APPSisFortasV1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PANI\\Desktop\\SENAI\\PROJETO TECNICO\\TCC FROTAS SAUDE\\APLICATIVOS\\APPSisFortasV1\\APPSisFortasV1\\APPSisFortasV1\\APPSisFortasV1.csproj",
+        "projectName": "APPSisFortasV1",
+        "projectPath": "C:\\Users\\PANI\\Desktop\\SENAI\\PROJETO TECNICO\\TCC FROTAS SAUDE\\APLICATIVOS\\APPSisFortasV1\\APPSisFortasV1\\APPSisFortasV1\\APPSisFortasV1.csproj",
+        "packagesPath": "C:\\Users\\PANI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PANI\\Desktop\\SENAI\\PROJETO TECNICO\\TCC FROTAS SAUDE\\APLICATIVOS\\APPSisFortasV1\\APPSisFortasV1\\APPSisFortasV1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PANI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Threading.Tasks.Extensions": {
+              "target": "Package",
+              "version": "[4.5.4, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

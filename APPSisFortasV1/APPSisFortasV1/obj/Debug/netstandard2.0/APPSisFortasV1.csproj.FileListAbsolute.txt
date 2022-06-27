@@ -1,0 +1,35 @@
+C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\bin\Debug\netstandard2.0\APPSisFortasV1.deps.json
+C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\bin\Debug\netstandard2.0\APPSisFortasV1.dll
+C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\bin\Debug\netstandard2.0\ref\APPSisFortasV1.dll
+C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\bin\Debug\netstandard2.0\APPSisFortasV1.pdb
+C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\obj\Debug\netstandard2.0\APPSisFortasV1.csproj.AssemblyReference.cache
+C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\obj\Debug\netstandard2.0\Pages\CheckList.xaml.g.cs
+C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\obj\Debug\netstandard2.0\Pages\DiarioBordo.xaml.g.cs
+C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\obj\Debug\netstandard2.0\Pages\Login.xaml.g.cs
+C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\obj\Debug\netstandard2.0\APPSisFortasV1.AssemblyInfoInputs.cache
+C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\obj\Debug\netstandard2.0\APPSisFortasV1.AssemblyInfo.cs
+C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\obj\Debug\netstandard2.0\APPSisFortasV1.csproj.CoreCompileInputs.cache
+C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\obj\Debug\netstandard2.0\APPSisFortasV1.dll
+C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\obj\Debug\netstandard2.0\ref\APPSisFortasV1.dll
+C:\PROJETO XAMARIM\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\obj\Debug\netstandard2.0\APPSisFortasV1.pdb
+C:\Users\PANI\Desktop\SENAI\PROJETO TECNICO\TCC FROTAS SAUDE\APLICATIVOS\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\bin\Debug\netstandard2.0\APPSisFortasV1.deps.json
+C:\Users\PANI\Desktop\SENAI\PROJETO TECNICO\TCC FROTAS SAUDE\APLICATIVOS\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\bin\Debug\netstandard2.0\APPSisFortasV1.dll
+C:\Users\PANI\Desktop\SENAI\PROJETO TECNICO\TCC FROTAS SAUDE\APLICATIVOS\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\bin\Debug\netstandard2.0\ref\APPSisFortasV1.dll
+C:\Users\PANI\Desktop\SENAI\PROJETO TECNICO\TCC FROTAS SAUDE\APLICATIVOS\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\bin\Debug\netstandard2.0\APPSisFortasV1.pdb
+C:\Users\PANI\Desktop\SENAI\PROJETO TECNICO\TCC FROTAS SAUDE\APLICATIVOS\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\obj\Debug\netstandard2.0\APPSisFortasV1.csproj.AssemblyReference.cache
+C:\Users\PANI\Desktop\SENAI\PROJETO TECNICO\TCC FROTAS SAUDE\APLICATIVOS\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\obj\Debug\netstandard2.0\APPSisFortasV1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PANI\Desktop\SENAI\PROJETO TECNICO\TCC FROTAS SAUDE\APLICATIVOS\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\PANI\Desktop\SENAI\PROJETO TECNICO\TCC FROTAS SAUDE\APLICATIVOS\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\PANI\Desktop\SENAI\PROJETO TECNICO\TCC FROTAS SAUDE\APLICATIVOS\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\obj\Debug\netstandard2.0\Pages\CheckList.xaml.g.cs
+C:\Users\PANI\Desktop\SENAI\PROJETO TECNICO\TCC FROTAS SAUDE\APLICATIVOS\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\obj\Debug\netstandard2.0\Pages\DiarioBordo.xaml.g.cs
+C:\Users\PANI\Desktop\SENAI\PROJETO TECNICO\TCC FROTAS SAUDE\APLICATIVOS\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\obj\Debug\netstandard2.0\Pages\Login.xaml.g.cs
+C:\Users\PANI\Desktop\SENAI\PROJETO TECNICO\TCC FROTAS SAUDE\APLICATIVOS\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\obj\Debug\netstandard2.0\APPSisFortasV1.AssemblyInfoInputs.cache
+C:\Users\PANI\Desktop\SENAI\PROJETO TECNICO\TCC FROTAS SAUDE\APLICATIVOS\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\obj\Debug\netstandard2.0\APPSisFortasV1.AssemblyInfo.cs
+C:\Users\PANI\Desktop\SENAI\PROJETO TECNICO\TCC FROTAS SAUDE\APLICATIVOS\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\obj\Debug\netstandard2.0\APPSisFortasV1.csproj.CoreCompileInputs.cache
+C:\Users\PANI\Desktop\SENAI\PROJETO TECNICO\TCC FROTAS SAUDE\APLICATIVOS\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\PANI\Desktop\SENAI\PROJETO TECNICO\TCC FROTAS SAUDE\APLICATIVOS\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\obj\Debug\netstandard2.0\APPSisFortasV1.dll
+C:\Users\PANI\Desktop\SENAI\PROJETO TECNICO\TCC FROTAS SAUDE\APLICATIVOS\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\obj\Debug\netstandard2.0\ref\APPSisFortasV1.dll
+C:\Users\PANI\Desktop\SENAI\PROJETO TECNICO\TCC FROTAS SAUDE\APLICATIVOS\APPSisFortasV1\APPSisFortasV1\APPSisFortasV1\obj\Debug\netstandard2.0\APPSisFortasV1.pdb
